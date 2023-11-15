@@ -1,4 +1,4 @@
-# 魔兽大作战卡牌卡组分享与游戏资讯 Wiki
+# 魔兽大作战卡牌卡组分享与游戏资讯 Wiki程序【开发中...】
 
 欢迎来到魔兽大作战卡牌卡组分享与游戏资讯 Wiki！本站致力于为魔兽大作战玩家提供一个交流、分享和学习的平台。无论是卡牌卡组的发布与收集，还是游戏资讯的分享，我们都希望能够为广大玩家提供有价值的内容。
 
@@ -38,6 +38,6 @@ Welcome to the Warcraft Battlegrounds Card Deck Sharing and Game News Wiki! This
 
 我们欢迎所有对魔兽大作战卡牌感兴趣的玩家一同参与，为这个 Wiki 做出贡献。你可以通过提交反馈、提出建议、参与文档编辑等方式，共同努力打造一个热情而有趣的社区。
 
-感谢你加入我们的行列，让我们一起享受魔兽大作战卡牌带来的乐趣！项目在建中，欢迎志同道合的友友一起加入！
+感谢你加入我们的行列，让我们一起享受魔兽大作战卡牌带来的乐趣！项目在建中，欢迎志同道合的友友一起加入《2622011721》！
 
 _The Management Team of the Warcraft Battlegrounds Card Deck Sharing and Game News Wiki_
