@@ -1,13 +1,40 @@
-# 魔兽大作战卡牌卡组分享与游戏资讯 Wiki程序【开发中...】
+# 魔兽大作战卡牌卡组分享与游戏资讯 Wiki程序--轻量
 
 欢迎来到魔兽大作战卡牌卡组分享与游戏资讯 Wiki！本站致力于为魔兽大作战玩家提供一个交流、分享和学习的平台。无论是卡牌卡组的发布与收集，还是游戏资讯的分享，我们都希望能够为广大玩家提供有价值的内容。
 
 Welcome to the Warcraft Battlegrounds Card Deck Sharing and Game News Wiki! This platform is dedicated to providing a space for players of Warcraft Battlegrounds to communicate, share, and learn. Whether it's sharing and collecting card decks or discussing game news, we aim to offer valuable content to the gaming community.
 
+## 示例图
+
+ps🤟:由于服务器成本，这里不做演示
+![image](https://github.com/user-attachments/assets/2e9827ed-b375-4bfa-a393-b0945015bb15)
+
+
+![image](https://github.com/user-attachments/assets/6579af24-40b0-4e7b-bc13-1af94ce290e2)
+
+![image](https://github.com/user-attachments/assets/dc75346b-f7e6-4c07-a09a-3861cade8f3e)
+
+![image](https://github.com/user-attachments/assets/a7945c45-d4a7-4a97-8a86-6b6abfcbc0e7)
+
+
+
+
 ## 技术栈
 
 - **前端：** 使用 Vue.js 构建，提供流畅、友好的用户界面。
 - **后端：** 基于 Node.js，采用轻量级的框架，保证高效的数据处理和交互。
+
+
+## 技术栈
+- 导入数据库
+- 服务端启动后，请求爬取初始数据
+`
+var config = {
+   method: 'post',
+   url: 'http://127.0.0.1:9529/api/decks'
+};
+`
+
 
 ## Tech Stack
 
