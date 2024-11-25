@@ -4,6 +4,16 @@
 
 Welcome to the Warcraft Battlegrounds Card Deck Sharing and Game News Wiki! This platform is dedicated to providing a space for players of Warcraft Battlegrounds to communicate, share, and learn. Whether it's sharing and collecting card decks or discussing game news, we aim to offer valuable content to the gaming community.
 
+## 示例图
+![image](https://github.com/user-attachments/assets/6579af24-40b0-4e7b-bc13-1af94ce290e2)
+
+![image](https://github.com/user-attachments/assets/dc75346b-f7e6-4c07-a09a-3861cade8f3e)
+
+![image](https://github.com/user-attachments/assets/a7945c45-d4a7-4a97-8a86-6b6abfcbc0e7)
+
+
+
+
 ## 技术栈
 
 - **前端：** 使用 Vue.js 构建，提供流畅、友好的用户界面。
