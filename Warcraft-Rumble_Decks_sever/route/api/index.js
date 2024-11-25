@@ -58,25 +58,55 @@ api.get('/getAllCards', async (req, res) => {
 });
 
 // 通过名称获取特定卡牌
+// api.post('/getCard/:id', async (req, res) => {
+//   try {
+//     const connection = await pool.getConnection();
+
+//     const cardId = req.params.id;
+
+//     // Query by card id
+//     const query = 'SELECT * FROM cards WHERE id = ?';
+//     const [results] = await connection.query(query, [cardId]);
+
+//     // Check if a card with the specified id was found
+//     if (results.length > 0) {
+//       res.status(200).json(results[0]);
+//     } else {
+//       res.status(404).json({ error: 'Card not found' });
+//     }
+
+//     // Release the database connection
+//     connection.release();
+//   } catch (error) {
+//     console.error('Error querying card by id:', error);
+//     res.status(500).json({ error: 'Error querying card by id' });
+//   }
+// });
 api.post('/getCard/:id', async (req, res) => {
   try {
     const connection = await pool.getConnection();
+    console.log('Database connection acquired.');
 
     const cardId = req.params.id;
+    console.log(`Fetching card with ID: ${cardId}`);
 
     // Query by card id
     const query = 'SELECT * FROM cards WHERE id = ?';
     const [results] = await connection.query(query, [cardId]);
+    console.log(`Query executed for card ID: ${cardId}`);
 
     // Check if a card with the specified id was found
     if (results.length > 0) {
+      console.log(`Card found: ${JSON.stringify(results[0])}`);
       res.status(200).json(results[0]);
     } else {
+      console.log(`Card not found for ID: ${cardId}`);
       res.status(404).json({ error: 'Card not found' });
     }
 
     // Release the database connection
     connection.release();
+    console.log('Database connection released.');
   } catch (error) {
     console.error('Error querying card by id:', error);
     res.status(500).json({ error: 'Error querying card by id' });

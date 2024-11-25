@@ -47,7 +47,7 @@ v.get('/getNew', async (req, res) => {
 v.get('/getMini', async (req, res) => {
   let data = []
 
-  axios.get('http://127.0.0.1:7326/v/getNew')
+  axios.get('http://127.0.0.1:9529/v/getNew')
     .then(response => {
       data = response.data;
       console.log("获取原始数据成功！");

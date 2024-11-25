@@ -63,7 +63,8 @@
                         <div class="sc-gIRiTr kXLcNS">
 
                           <div class="sc-fybvms hxwczm" v-for="(value, key, index) in item.deck_json" :key="key">
-                            <a :href="'/minis/' + key" class="sc-cKZHtR klICPf" v-if="index < 6">
+                            <p>{{value}}</p>
+                            <a :href="'/minis/' + value" class="sc-cKZHtR klICPf" v-if="index < 6">
                               <!-- Your existing code for the first six items -->
                               <div class="sc-kiYrGK sApfk">
                                 <img
@@ -151,28 +152,28 @@ export default {
   methods: {
     fetchData() {// 获取卡组信息
 
-      this.$axios.post('/decks')
-        .then(response => {
-          // console.log("ok")
-          console.log(response.data)
-          // 寻找所有 class 为 kXLcNS 的元素
-          let elements = document.getElementsByClassName('kXLcNS');
+      // this.$axios.post('/decks')
+      //   .then(response => {
+      //     // console.log("ok")
+      //     console.log(response.data)
+      //     // 寻找所有 class 为 kXLcNS 的元素
+      //     let elements = document.getElementsByClassName('kXLcNS');
 
-          // 遍历找到的元素
-          for (let i = 0; i < elements.length; i++) {
-            let children = elements[i].getElementsByClassName('hxwczm');
-            if (children.length > 0) {
-              // 隐藏最后一个 class 为 hxwczm 的元素
-              children[children.length - 1].style.display = 'none';
-            }
-          }
+      //     // 遍历找到的元素
+      //     for (let i = 0; i < elements.length; i++) {
+      //       let children = elements[i].getElementsByClassName('hxwczm');
+      //       if (children.length > 0) {
+      //         // 隐藏最后一个 class 为 hxwczm 的元素
+      //         children[children.length - 1].style.display = 'none';
+      //       }
+      //     }
 
 
 
-        })
-        .catch(error => {
-          console.error('Error fetching data', error);
-        });
+      //   })
+      //   .catch(error => {
+      //     console.error('Error fetching data', error);
+      //   });
 
 
       this.$axios.get('/decks' + "?page=1")

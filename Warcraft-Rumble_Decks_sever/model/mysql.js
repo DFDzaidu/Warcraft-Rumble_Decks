@@ -4,9 +4,9 @@ const mysql = require('mysql2/promise');
 // 创建MySQL连接池
 const pool = mysql.createPool({
 	//   host: 'localhost', // 数据库主机名
-	host: '154.12.55.19',
-	user: 'Warcraft', // 用户名
-	password: 'Warcraft', // 密码
+	host: 'api.zaidu.in',
+	user: 'warcraft', // 用户名
+	password: 'warcraft', // 密码
 	database: 'warcraft', // 数据库名
 	connectionLimit: 10 // 连接池最大连接数
 });

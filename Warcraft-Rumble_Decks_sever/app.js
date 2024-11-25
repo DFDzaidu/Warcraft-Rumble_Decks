@@ -64,7 +64,7 @@ app.use('/api', api);
 app.use('*/api', api);
 app.use('/v', v);
 //监听端口
-app.listen(7326);
+app.listen(9529);
 //控制台提示输出
 console.log("服务器已经启动成功~芜湖端口7326~起飞~~~")
 console.log(
