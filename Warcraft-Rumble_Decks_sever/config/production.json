@@ -1,0 +1,9 @@
+{
+	"title":"字体发布管理系统----生产环境-正式服",
+	"db":{
+		"user":"blog",
+		"host":"localhost",
+		"port":"27017",
+		"name":"blog"
+	}
+}

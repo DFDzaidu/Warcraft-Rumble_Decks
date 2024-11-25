@@ -1,0 +1,9 @@
+{
+	"title":"魔兽大作战wiki----开发环境-测试服",
+	"db":{
+		"user":"blog",
+		"host":"localhost",
+		"port":"27017",
+		"name":"blog"
+	}
+}

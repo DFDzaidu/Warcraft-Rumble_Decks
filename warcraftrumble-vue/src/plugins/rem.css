@@ -1,0 +1,11 @@
+/* 设置根元素的字体大小 */
+html {
+    font-size: 16px; /* 可根据需求调整基准字体大小 */
+  }
+  
+  /* 使用rem单位进行样式设置 */
+  /* 示例 */
+  .selector {
+    font-size: 1rem; /* 1rem等于根元素的字体大小，即16px */
+    margin-top: 2rem; /* 2rem等于32px */
+  }
